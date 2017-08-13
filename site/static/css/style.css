@@ -147,11 +147,13 @@ nav.main-nav a {
 	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
+	white-space: nowrap;
 }
 nav.main-nav a.cta {
 	background: #5badf0;
 	color: #fff;
 	margin-left: 12px;
+	white-space: nowrap;
 }
 
 nav.main-nav a:hover {

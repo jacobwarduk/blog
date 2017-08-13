@@ -1,16 +1,8 @@
 +++
-date = "2017-08-12T15:18:30.152Z"
+date = "2017-08-12T15:18:31.152Z"
 title = "Resources"
 hidden = true
 menu = "main"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-***
-
-### Lorem ipsum dolor.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dicta corporis ad inventore itaque impedit dolor atque amet exercitationem! Veniam qui voluptas maiores vel laudantium necessitatibus, velit ducimus! Iste hic facere, accusamus fugiat enim facilis.
+Here, I'll try to keep a list of all resources and references I use, since I tend to use many.

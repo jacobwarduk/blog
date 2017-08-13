@@ -1,10 +1,7 @@
 +++
 title = "Finding and building static site generators"
 description = "Since I need an interesting side project to work on for #100DaysOfCode, I think I'm going to go slightly out of my comfort zone (how else do you learn?) and try to build a static site generator of my own."
-tags = [
-    "hugo",
-    "development",
-]
+tags = []
 date = "2017-08-12T15:18:30.152Z"
 categories = [
     "Development"
