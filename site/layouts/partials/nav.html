@@ -1,0 +1,12 @@
+<nav class="main-nav">
+	{{ if not .IsHome }}
+		<a href='{{ .Site.BaseURL }}'> <span class="fa fa-long-arrow-left"> </span> {{ .Site.Params.home | default "Home" }}</a>
+	{{ end }}
+
+	{{ range .Site.Menus.main }}
+ 		<a href='{{ .URL }}'>{{ .Name }}</a>
+  	{{ end }}
+
+	<a href="https://github.com/jacobwarduk/100-days-of-code">#100DaysOfCode</a>
+	<a class="cta" href="#">Download Résumé</a>
+</nav>

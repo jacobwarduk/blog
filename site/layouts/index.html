@@ -1,5 +1,8 @@
-{{ partial "header" . }}
+{{ define "profile" }}
+	{{ partial "profile.html" . }}
+{{ end }}
 
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
-
-{{ partial "footer" . }}
+{{ define "main" }}
+	{{ partial "post-list.html"  . }}
+	{{ partial "pagination.html" . }}
+{{ end }}
