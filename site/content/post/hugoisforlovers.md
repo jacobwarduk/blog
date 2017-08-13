@@ -1,88 +1,30 @@
 +++
-title = "Getting Started with Hugo"
-description = ""
+title = "Finding and building static site generators"
+description = "Since I need an interesting side project to work on for #100DaysOfCode, I think I'm going to go slightly out of my comfort zone (how else do you learn?) and try to build a static site generator of my own."
 tags = [
-    "go",
-    "golang",
     "hugo",
     "development",
 ]
 date = "2017-08-12T15:18:30.152Z"
 categories = [
-    "Development",
-    "golang",
+    "Development"
 ]
 +++
 
-## Step 1. Install Hugo
+Originally this post was entitled "Getting Started with Hugo", since that's the static site generator I'm using here and that is the title of [Hugo](http://gohugo.io/)'s `Hello World` post.
 
-Goto [hugo releases](https://github.com/spf13/hugo/releases) and download the
-appropriate version for your os and architecture.
+Hugo is one of many static site generators I've briefly experimented with on my journey to find the one that just fits my needs, and it's the closest I've come.
 
-Save it somewhere specific as we will be using it in the next step.
+Without going down the rabbit hole too deeply, every static site generator promises to be better than the last, and each one usually is - in some regard - but they're mostly the same, and bloated with features that I simply don't need.
 
-More complete instructions are available at [installing hugo](/overview/installing/)
+Since I need an interesting side project to work on for [#100DaysOfCode](https://github.com/jacobwarduk/100-days-of-code), I think I'm going to go slightly out of my comfort zone (how else do you learn?) and try to build a static site generator of my own.
 
-## Step 2. Build the Docs
+The feature set will be pretty simple, or maybe insanely complicated, I suppose I'll have to see as I go along.
 
-Hugo has its own example site which happens to also be the documentation site
-you are reading right now.
-
-Follow the following steps:
-
- 1. Clone the [hugo repository](http://github.com/spf13/hugo)
- 2. Go into the repo
- 3. Run hugo in server mode and build the docs
- 4. Open your browser to http://localhost:1313
-
-Corresponding pseudo commands:
-
-    git clone https://github.com/spf13/hugo
-    cd hugo
-    /path/to/where/you/installed/hugo server --source=./docs
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Press ctrl+c to stop
-
-Once you've gotten here, follow along the rest of this page on your local build.
-
-## Step 3. Change the docs site
-
-Stop the Hugo process by hitting ctrl+c.
-
-Now we are going to run hugo again, but this time with hugo in watch mode.
-
-    /path/to/hugo/from/step/1/hugo server --source=./docs --watch
-    > 29 pages created
-    > 0 tags index created
-    > in 27 ms
-    > Web Server is available at http://localhost:1313
-    > Watching for changes in /Users/spf13/Code/hugo/docs/content
-    > Press ctrl+c to stop
+But, if there's two things that I'm sure of it is these:
 
 
-Open your [favorite editor](http://vim.spf13.com) and change one of the source
-content pages. How about changing this very file to *fix the typo*. How about changing this very file to *fix the typo*.
+ • As a developer, I want to be able to develop using the technologies I choose, so that I can develop with/for the SSG with virtually no learning curve. 
 
-Content files are found in `docs/content/`. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-`docs/content/overview/quickstart.md`.
+ • As a writer, I want to be able to be able to write and publish with ease, so that there is as little friction as possible during in publishing process.
 
-Change and save this file.. Notice what happened in your terminal.
-
-    > Change detected, rebuilding site
-
-    > 29 pages created
-    > 0 tags index created
-    > in 26 ms
-
-Refresh the browser and observe that the typo is now fixed.
-
-Notice how quick that was. Try to refresh the site before it's finished building.. I double dare you.
-Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.
-
-## Step 4. Have fun
-
-The best way to learn something is to play with it.
