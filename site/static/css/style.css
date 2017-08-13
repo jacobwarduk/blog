@@ -70,13 +70,13 @@ h2 {
 }
 
 .profile #wrapper {
-	padding: 100px 40px 0px;
+	padding: 0 40px 0;
 	max-width: 600px;
 	margin: 0 auto;
 }
 
 .profile #header {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	text-align: center;
 	position: relative;
 }
@@ -127,13 +127,14 @@ h2 {
 
 nav.main-nav {
 	padding: 0 0 35px;
-
+	vertical-align: middle;
 	/*max-width: 600px;*/
 	/*width:100%;*/
 	background: #fff;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
 	text-align: center;
+	line-height: 34px;
 	/*position: fixed;*/
 	z-index: 100;
 }
@@ -618,10 +619,10 @@ h2.month {
 	box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
 }
 
-#post-list.archive.readmore h3{
+#post-list.archive.readmore h3 {
 
 	font: 400 20px "Helvetica Neue", Helvetica,Arial,sans-serif;
-	margin-bottom: 30px;
+	margin: 30px 0 10px;
 }
 
 #post-list.archive.readmore a{
