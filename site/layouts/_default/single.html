@@ -3,8 +3,12 @@
     <header>
         <h1>{{ .Title }}</h1>
         <h2 class="headline">
-        {{ .Date.Format "January 2, 2006" }}
-        <br>
+            {{ .Description }}
+        </h2>
+        <aside class="date">
+            {{ .Date.Format "January 2, 2006" }}
+        </aside>
+
         {{ with .Params.tags }}
         {{ if ge (len .) 1 }}
             {{ range . }}
