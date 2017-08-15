@@ -186,7 +186,7 @@ nav.main-nav a:hover {
 a,
 #title,
 #post-list a:hover,
-#post-list a:hover h2,
+#post-list a:hover h3,
 #post-list li:hover .dates,
 #title:hover {
 	text-decoration: none;
@@ -292,11 +292,12 @@ em, i { font-style: italic; }
 	text-transform: uppercase;
 }
 
-#post-list h2 {
+#post-list h3 {
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #333;
 	max-width: 400px;
 	margin-top: 2px;
+	margin-bottom: 5px;
 }
 
 h3, h4, h5 { color:#333; }
@@ -432,7 +433,7 @@ Post List
 	border-bottom: 1px solid #eee;
 }
 
-#post-list a h2 {
+#post-list a h3 {
 	color: #555;
 	display: block;
 	font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
@@ -623,7 +624,7 @@ h2.month {
 	box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
 }
 
-#post-list.archive.readmore h3 {
+#post-list.archive.readmore h4 {
 
 	font: 400 20px "Helvetica Neue", Helvetica,Arial,sans-serif;
 	margin: 30px 0 10px;
@@ -705,6 +706,7 @@ a.symbol:hover {
 	-ms-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
+	margin-top: -3px;
 }
 
 code {

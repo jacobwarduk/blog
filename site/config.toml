@@ -11,8 +11,8 @@ disqusShortname = "jacobwarduk"
 
 [params]
 	name = "Jacob Ward"
-	description = "A little bit of JavaScript and Front End stuffs"
-	bio = "Contract Front End & JavaScript Programmer"
+	description = "Jacob is a Contract Front End & JavaScript developer. This is his little place on the web to play around and occasionally write stuff about what he does."
+	bio = "Contract Front End & JavaScript Developer"
 	# Enter optionally your twitter account
 	twitter = "jacobwarduk"
 	enableRSS = true
@@ -50,7 +50,7 @@ disqusShortname = "jacobwarduk"
 
 # Add additional social link entries underneath
 [social]
-    envelope-square     = "https://www.jacobward.io/contact/"
     twitter-square      = "https://www.twitter.com/jacobwarduk"
     linkedin-square     = "https://www.linkedin.com/in/jacobwarduk/"
     github-square       = "https://github.com/jacobwarduk"
+    rss-square          = "https://blog.jacobward.co.uk/index.xml"
