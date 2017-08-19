@@ -25,7 +25,9 @@ It has finally hit me. **I need to do some learning myself**.
 
 Despite my skillset being relevant now, what with the Front End Development ecosystem shifting so frequently and radically - seemingly daily - what will it be like in a year, 3 years, 5 years?
 
-So I have [committed to the #100DaysOfCodeChallenge](https://github.com/jacobwarduk/100-days-of-code#-ive-joined-the-100daysofcode-challenge).
+So I have [committed to the #100DaysOfCodeChallenge](https://github.com/jacobwarduk/100-days-of-code#-ive-joined-the-100daysofcode-challenge) and set my list of goals.
+
+![My 100 Days of Code targets](/images/100-days-of-code-targets.png)
 
 So far I am on day 23 and I have completed the majority of the underlying work on a Progressive Web Application (PWA) in ReactJS, something I had no knowledge of before, and getting a good understanding of Angular 4.
 
@@ -44,3 +46,4 @@ Bottom line is **you don't have to be a new developer to participate in the chal
 ---
 
 > *Completing [Free Code Camp's learning map](https://www.freecodecamp.org/map) is more than sufficient for somebody to find themselves in a position to land a Junior Developer role.
+![Free Code Camp Map](/images/free-code-camp-map.png)
