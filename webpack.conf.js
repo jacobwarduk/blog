@@ -5,7 +5,7 @@ export default {
   module: {
     rules: [
       {
-        test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
+        test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))?$/,
         loader: "file-loader?name=/[hash].[ext]"
       },
       {test: /\.json$/, loader: "json-loader"},
