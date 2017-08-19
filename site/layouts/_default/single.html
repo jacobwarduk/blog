@@ -24,6 +24,7 @@
 </article>
 
 <footer id="post-meta" class="clearfix">
+    <h4>Want to leave a comment or discuss this post?</h4>
     {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
     <img class="avatar" src="{{ "images/avatar.png" | absURL }}">
     <div>
@@ -36,7 +37,6 @@
     </section>
 </footer>
 
-{{ template "_internal/disqus.html" . }}
 
 {{ partial "latest-posts.html" . }}
 {{ end }}
