@@ -209,7 +209,7 @@ function HeadedTable(header, cols, rows) {
     this.cols = cols;
     this.rows = rows;
 }
-HeadedTable.prototype = Object.create(Table.prototype);
+Object.setPrototypeOf(HeadedTable.prototype, Table.prototype );;
 
 const tableWithHeader = new HeadedTable('My New Table', 7, 5);
 
