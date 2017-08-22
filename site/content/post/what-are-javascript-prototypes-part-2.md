@@ -8,7 +8,7 @@ categories = [
     "Development",
     "Object Oriented Programming",
     "OOP"
-]
+],
 draft = true
 +++
 
