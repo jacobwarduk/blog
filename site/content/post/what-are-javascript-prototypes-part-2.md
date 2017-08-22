@@ -8,8 +8,8 @@ categories = [
     "Development",
     "Object Oriented Programming",
     "OOP"
-],
-draft = true
+]
+draft = "true"
 +++
 
 To briefly recap what we learnt in [Part 1](http://jacobward.io/post/what-are-javascript-prototypes-part-1/), we know that objects have a prototype which is it's link to the prototype chain, we learnt about _constructor calls_, _behaviour delegation_, _intrinsic objects_, and concepts that in Classical Inheritance Land might be called "classes", "inheritance", and "polymorphism".

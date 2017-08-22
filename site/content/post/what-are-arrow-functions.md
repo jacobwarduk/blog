@@ -6,9 +6,8 @@ date = "2017-08-21T18:46:43.467Z"
 categories = [
     "JavaScript",
     "Development"
-],
-
-draft = true
+]
+draft = "true"
 +++
 
 
