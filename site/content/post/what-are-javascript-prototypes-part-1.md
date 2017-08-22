@@ -29,9 +29,9 @@ age.toString(); // '31'
 
 But there is more to this than meets the eye, as we shall come back to see later on.
 
-### WTF? We still haven't started talking about prototypes yet?
+### Okay, so what are prototypes?
 
-A prototype is an object present on almost all objects which - in one sense - can be looked at as a fallback for properties not found directly on objects for which it has been used as a constructor.
+A prototype is an object present on almost all JavaScript objects which - in one sense - can be looked at as a fallback for properties not found directly on objects for which it has been used as a constructor.
 
 That was a mouthful, so let's see a quick example.
 
@@ -57,9 +57,11 @@ results.getRows(); // 4
 
 ```
 
-So what kind of black magic is going on here?
+ > A constructor refers to any time you call a function with the `new` keyword. Note, there is **no such thing as a _constructor function_**, only **_constructor calls_**.
 
-When `getCols()` and `getRows()` are not found as properties on the `results` object, they are then looked up in the prototype chain, the next point of call being the `Table` constructor, where they are found and invoked.
+Back to the example at hand. If results doesn't have `getCols` or `getRows` as properties on it, what is going on here?
+
+When `getCols` and `getRows` are not found as properties on the `results` object, they are then looked up in the prototype chain, the next point of call being its constructor, `Table`, of which it is considered an _instance_, where they are found and invoked.
 
 As we can see here, the prototype of `results` being `Table`.
 
@@ -67,7 +69,7 @@ As we can see here, the prototype of `results` being `Table`.
 Object.getPrototypeOf(results); // Table { getCols: [Function], getRows: [Function] }
 ```
 
- > This is what people commonly refer to as **_prototypal inheritance_**. But, this is not strictly true. For it to be considered inheritance, the `results` object would have had to inherit the `getCols()` and `getRows()` methods, with them being present on it.
+ > This is what people commonly refer to as **_prototypal inheritance_**. But, this is not strictly true. For it to be considered inheritance, the `results` object would have had to inherit the `getCols` and `getRows` methods, with them being present on it.
 
  > This is actually a form of **_behaviour delegation_**.
 
@@ -85,11 +87,11 @@ Now, do you want to see something weird?
 Object.getPrototypeOf(Function); [Function]
 ```
 
-It looks like we've reached the top of the prototype chain and we still haven't found the `hasOwnProperty()` method. What the fuck? I thought we were gonna keep going up and up until we found it?
+It looks like we've reached the top of the prototype chain and we still haven't found the `hasOwnProperty()` method. I thought we were gonna keep going up and up until we found it?
 
 Well, I'll let you in on a little secret. This isn't weird at all.
 
-In JavaScript `Function` is a constructor and the `Function` constructor is one of JavaScript's many _intrinsic objects_.
+In JavaScript, `Function` is a constructor and the `Function` constructor is one of JavaScript's many _intrinsic objects_.
 
 Let's check out what `Function` is actually an instance of.
 
@@ -99,7 +101,7 @@ Function instanceof Object; // true
 
 That's right, the big daddy of them all, the `Object` constructor. And - if you haven't forgotten what we were actually looking for - the location of the `hasOwnProperty()` method.
 
-That is a **very simple** overview of how JavaScript's prototype mechanism works. But don't worry, after I go off on this short - but important - tangent, we're going to deeper into the prototype mechanism (or up the prototype chain)...or something funny...fuck it...I tried.
+That is a **very simple** overview of how JavaScript's prototype mechanism works. But don't worry, after I go off on this short - but important - tangent, we're going to delve deeper into the prototype mechanism (or up the prototype chain)...or something funny...fuck it...I tried.
 
 ### Intrinsic objects
 
@@ -133,7 +135,7 @@ let age = 31; // age is only a number
 Object.getPrototypeOf(age); // [Number: 0]
 ```
 
-So when we enter `name.length` and get `5` as a result, we're not accessing a property on the string at all. JavaScript recognises that we're trying to access a property on a string, and so defers the request to the intrinsic `String` object.
+So when we enter `name.length` and get `5` as a result, we're not accessing a property on the string at all. JavaScript recognises that we're trying to access a property on a string, and so delegates the request to the intrinsic `String` object's prototype.
 
 It should also be pointed out though, that neither the string or number here were actually created using their relevant constructors.
 
@@ -142,7 +144,7 @@ It should also be pointed out though, that neither the string or number here wer
 name instanceof String; // false
 ```
 
-If we had of used the constructors, we would have something very different.
+If we had of created them using constructor calls, we would have something very different.
 
 ```javascript
 let name = new String('Jacob'); // [String: 'Jacob']
@@ -173,7 +175,9 @@ const results = new Table(7, 4); // Create a new Table instance
 const friendlyResults = new Table(9, 5); // Create another instance of Table
 ```
 
-When we add a property to an object, it is added directly on the object and is not represented any higher up in the prototype chain. By using the same name as in the prototype, this gives us the ability to override 'inherited' functionality or default behaviour for that particular object, without affecting any of its siblings.
+When we add a property to an object, it is added directly on the object and is not represented any higher up in the prototype chain. By using the same name as in the prototype, this gives us the ability to override the 'inherited' functionality for that particular object.
+
+This is known as _shadowing_, where the new property on the instance _shadows_ the property of its constructor.
 
 ```javascript
 friendlyResults.getCols = function() {
@@ -200,7 +204,7 @@ friendlyResults.getCells(); // 45
 
 Let's say we want another table constructor - `HeadedTable` - this one we want to be able to create tables with a header.
 
-Rather than manually adding the functionality to retrieve columns, rows, and cells all over again, we can borrow (or inherit) from our `Table` constructor.
+Rather than manually adding the functionality to create and retrieve columns, rows, and cells all over again, we can borrow from our `Table` constructor.
 
 ```javascript
 function HeadedTable(header, cols, rows) {
@@ -215,6 +219,8 @@ const tableWithHeader = new HeadedTable('My New Table', 7, 5);
 
 tableWithHeader.getCells(); // 35
 ```
+
+> This, again, is commonly referred to as inheritance. It is not, it is simply _behaviour delegation_ in action.
 
 We haven't messed with what `HeadedTable` is a prototype of, but we added to its prototype's prototype.
 
@@ -234,7 +240,7 @@ HeadedTable.prototype.getHeader = function() {
 tableWithHeader.getHeader(); // 'My New Table'
 ```
 
-You may be wondering why I've been putting "inheriting" in parentheses throughout this section. It's because we are still **not inheriting** anything. We are simply borrowing, or to be more precise _delegating_ functionality. Watch closely.
+If you're still not convinced that there is not some form of inheritance going on, watch closely.
 
 ```javascript
 Table.prototype.getCells = function() {
@@ -245,7 +251,7 @@ results.getCells(); // 'Look at my 28 cells'
 tableWithHeader.getCells(); // 'Look at my 35 cells'
 ```
 
-In a classical inheritance model, a change or addition to `Table` after `HeadedTable` has been instantiated would not be reflected on `HeadedTable`. But in JavaScript, because it borrows `Table`'s prototype, any changes or additions are reflected, as it delegates its behaviour to its prototype.
+In a classical inheritance model, a change or addition to `Table` after `HeadedTable` has been instantiated would not be reflected on `HeadedTable`. But in JavaScript, because it delegates it's behaviour to the `Table`'s prototype, any changes or additions are accessible via the prototype chain.
 
 This can be a problem. As observed in the previous example, when we call `tableWithHeader.getCells()` we weren't expecting to receive a string like that, we were expecting a number.
 
@@ -257,10 +263,11 @@ That concludes **Part 1** of our investigation into object prototypes.
 
 So far we have learnt:
 
- - Objects have a prototype, essentially a reference to its parent object.
+ - Objects have a prototype, essentially a reference to its constructor.
  - Calls to properties on an object are delegated up the prototype chain.
- - We can borrow the prototype of a different object.
+ - Using behaviour delegation to access properties on another object.
  - Extending functionality by creating new constructors.
- - Changing the parent's prototype affects it's children.
+ - Changing the constructor's prototype affects it's instances.
+ - Adding a property with the same name shadows it's constructor's.
 
 Stay tuned for **Part 2**, because the prototype chain doesn't end here, we still have a long way to climb before we truly understand JavaScript's object prototypes.
