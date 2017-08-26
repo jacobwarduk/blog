@@ -8,7 +8,7 @@
 
 ### Fixes:
 
-34f8cf2 fixes display issues of the about page that occured in Hugo v0.18 and higher due to the way how Hugo treats sites as a page of different kinds. **It's required to rename `content/about/_index.md` to `content/about/_index.md`**.
+34f8cf2 fixes display issues of the about page that occured in Hugo v0.18 and higher due to the way how Hugo treats sites as a page of different kinds. **It's required to rename `content/about/now.md` to `content/about/now.md`**.
 
 ### Improvements
 

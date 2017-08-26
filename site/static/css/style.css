@@ -428,9 +428,10 @@ Post List
 #post-list li,#archive-list li {
 	border-top: 1px solid #eee;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 18px;
 	list-style-type: none;
 	margin-bottom: 0;
+	margin-top: 0;
 }
 
 #post-list li:last-child {

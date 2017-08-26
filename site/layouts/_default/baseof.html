@@ -4,15 +4,18 @@
     {{ partial "head.html" . }}
     </head>
 <body>
-    <section id="wrapper">
+    <article id="wrapper" class="post">
         {{ block "profile" . }}{{ end }}
 
         {{ partial "nav.html" . }}
 
-        {{ block "main" . -}}{{- end }}
+        <section id="post-body">
+            {{ block "main" . -}}{{- end }}
+        </section>
 
         {{ partial "footer.html" . }}
-    </section>
+
+    </article>
     {{ partial "js.html" . }}
 </body>
 </html>

@@ -9,6 +9,10 @@ googleAnalytics = "UA-104942370-1"
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "jacobwarduk"
 
+
+[permalinks]
+    section = "/:slug"
+
 [params]
 	name = "Jacob Ward"
 	description = "Jacob is a Contract Front End & JavaScript developer. This is his little place on the web to play around and occasionally write stuff about what he does."
@@ -26,9 +30,8 @@ disqusShortname = "jacobwarduk"
 	# translate or customize each string of the theme.
 
 	# Navigation links
-	home = ""
+    subscribe = ""
 
-	subscribe = ""
 	# Pagination links
 	olderPosts = ""
 	newerPosts = ""
