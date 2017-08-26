@@ -9,10 +9,19 @@ description = "All about me - my work, my personal life, and all the gory detail
 ### About me
 As you will have noticed from the description up top, I am **Jacob Ward** and I am a **Contract Front End & JavaScript Developer**.
 
+If you want to know what I'm up to _right now_ then check out my [/now](/now) page.
+
+
+
 ---
 
 ### About the site
 
+I'm constantly learning and trying out new things. This is kind of a place for me to take notes on what I'm doing, share new things I've found out, basically just somewhere for me to have a little brain dump every now and then.
+
+Sometimes you might see four posts in a row. Sometimes you might not see anything for a month.
+
+If this site is still up, it means I'm alive somewhere because the domain registrar is still collecting the payment from my bank.
 
 ---
 
@@ -40,7 +49,7 @@ But, what I love most, is plain ol' vanilla JavaScript coding and keeping up to 
 
 ### About my book collection
 
-I love learning from books and have a massive library of technical and programming books.
+I get a but geeky about books. I love learning from books and have a massive library of technical and programming books.
 
 Here's a selection of some of my favourites, most of which will have been used at some point as reference material for the posts you find here.
 
