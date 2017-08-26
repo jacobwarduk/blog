@@ -9,8 +9,8 @@ description = "LAST UPDATED: "
  > Obviously inspired by Derek Siver's [now page](http://sivers.org/now) and the [NowNowNow Project](http://nownownow.com/about), you can find out what I'm up to **_Now_**.
 
 ```javascript
- > new Date();
- ⇜ Sat Aug 26 2017 11:53:11 GMT+0100 (BST)
+ > Date();
+ ⇜ "Sat Aug 26 2017 11:53:11 GMT+0100 (BST)"
 ```
 
 This very second I am sat on my sofa, drinking a can of Red Bull, smoking a B&H Gold cigarette, and typing this out.
