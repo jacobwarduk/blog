@@ -15,7 +15,7 @@ function isRetina() {
  
 	return false;
 };
- 
+
  
 function retina() {
 	

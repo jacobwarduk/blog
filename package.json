@@ -38,5 +38,6 @@
     "url-loader": "^0.5.7",
     "webpack": "^2.6.0",
     "whatwg-fetch": "^1.0.0"
-  }
+  },
+  "devDependencies": {}
 }

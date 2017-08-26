@@ -29,7 +29,7 @@ age.toString(); // '31'
 
 But there is more to this than meets the eye, as we shall come back to see later on.
 
-### Okay, so what are prototypes?
+### Okay, so what is an object prototype?
 
 A prototype is an object present on almost all JavaScript objects which - in one sense - can be looked at as a fallback for properties not found directly on objects for which it has been used as a constructor.
 
@@ -269,5 +269,6 @@ So far we have learnt:
  - Extending functionality by creating new constructors.
  - Changing the constructor's prototype affects it's instances.
  - Adding a property with the same name shadows it's constructor's.
+ - JavaScript has a number of intrinsic objects.
 
 Stay tuned for **Part 2**, because the prototype chain doesn't end here, we still have a long way to climb before we truly understand JavaScript's object prototypes.
