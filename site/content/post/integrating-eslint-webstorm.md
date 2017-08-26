@@ -113,8 +113,8 @@ Once there, check the `Enable` checkbox and all the for fields should become ena
 
 Click `Apply` or `Save` and voila, we now have linting inside our editor which will pop up errors and warnings as we make them.
 
-![ESLint highlight error in code](/images/eslint-errors-01.png)
+![ESLint highlight error in code](/images/eslint-error-01.png)
 
-![ESLint highlight error in file name](/images/eslint-errors-02.png)
+![ESLint highlight error in file name](/images/eslint-error-02.png)
 
 No more excuses for not following the style guide. Your files will be marked as being in error.
