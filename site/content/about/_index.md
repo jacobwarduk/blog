@@ -40,17 +40,17 @@ I'm not a huge fan of the terms, but most of my time is split between **Front En
 
 Surprisingly, I do actually have a few interests outside of work.
 
-| ❤️ Things I love  |   | 🚫 Things I hate |
-|-------------------|---|------------------|
-| 😂 Emojis         |   | 🤓 Hipsters          |
-|  🎓 Learning      |   | 😏 False modesty     |
-| 🌈 Open Source    |   | 👳 'Guru' developers |
+| ❤️ Things I love  |   | 🚫 Things I hate               |
+|-------------------|---|-------------------------------|
+| 😂 Emojis         |   | 🤓 Hipsters                   |
+|  🎓 Learning      |   | 😏 False modesty              |
+| 🌈 Open Source    |   | 👳 'Guru' developers          |
 | 🦏 JavaScript     |   | 🙏 Religious nonsense         |
-| 💤 Afternoon naps |   | 📆 Task estimation   |
-| 💻 My job         |   | 👔 Dressing smart    |
-| 🐂 Red Bull       |   | 🐈 Cats              |
-| 💊 Valium         |   | ❄️ The cold|
-| ✍️ Tattoos        |   | 🎉 False celebrations |
+| 💤 Afternoon naps |   | 📆 Task estimation            |
+| 💻 My job         |   | 👔 Dressing smart             |
+| 🐂 Red Bull       |   | 🐈 Cats                       |
+| 💊 Valium         |   | ❄️ The cold                    |
+| ✍️ Tattoos        |   | 🎉 False celebrations          |
 
 ---
 
@@ -73,15 +73,48 @@ Here's a selection of some of my favourites, most of which will have been used a
  > Whilst many of the resources here are available for free online, I would encourage you to support the authors by purchasing either the eBook or paperback versions, if you can afford it.
 
 
- - [ECMAScript 2017 Language Specification](https://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf)
+#### Introductory
+
+ - HTML & CSS
+ - JavaScript & jQuery
+ - Learning JavaScript
+
+#### Beginner
+
  - Eloquent JavaScript [[Free online](http://eloquentjavascript.net/) | [Paperback](http://amzn.to/2wvLb11)]
- - You Don't Know JS
+ - Pro JavaScript for Web Developers
+ - JavaScript: The Definitive Guide
+ - Understanding ES6 [[Free online](https://github.com/nzakas/understandinges6/tree/master/manuscript) | [Paperback](http://amzn.to/2vb76Gh)]
+ - Practical Modern JavaScript
+ - The Definitive Guide to HTML5
+
+#### Intermediate
+
+ - JavaScript Application Design
+ - Reliable JavaScript
+ - Front End Architecture for Design Systems
+ - Learning JavaScript Design Patterns
+ - JavaScript Patterns
+
+#### Advanced
+
+ - Secrets of the JavaScript Ninja (2nd edition!)
+ - Functional JavaScript
+ - Data Structures & Algorithms in JS
+ - You Don't Know JS Collection
     - Types & Grammar [[Free online](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar) | [Paperback](http://amzn.to/2vlnt2r)]
     - Scope & Closures [[Free online](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) | [Paperback](http://amzn.to/2w0jdav)]
     - this & Object Prototypes [[Free online](https://github.com/getify/You-Dont-Know-JS/tree/master/this%20%26%20object%20prototypes) | [Paperback](http://amzn.to/2vm8dSS)]
     - Async & Performance [[Free online](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance) | [Paperback](http://amzn.to/2wvaVuc)]
     - ES6 & Beyond [[Free online](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond) | [Paperback](http://amzn.to/2xpQFqv)]
- - Understanding ES6 [[Free online](https://github.com/nzakas/understandinges6/tree/master/manuscript) | [Paperback](http://amzn.to/2vb76Gh)]
+
+#### Beyond
+
+ - [ECMAScript 2017 Language Specification](https://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf)
+ - High Performance Browser Networking
+ - Building Microservices
+ - Identity and Data Security for Web Development
+
 
 ---
 
