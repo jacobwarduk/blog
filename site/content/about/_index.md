@@ -8,25 +8,49 @@ description = "All about me - my work, my personal life, and all the gory detail
 
 ### 👨‍💻 About me
 
-The astute reader will have noticed from the description up top that I am **Jacob (Jake) Ward** and I am a **Contract Front End & JavaScript Developer**.
+The astute reader will have noticed that I am a **Contract Front End & JavaScript Developer**. However, I suppose there is more to me than a job title, especially one which doesn't really describe what I _actually_ do.
 
- > I'm available for Front End Ops, Consulting, Architecture, and Development. Feel free to get in touch to find out more.
+#### So WTF do I _actually_ do?
 
-If you want to know what I'm up to _right now_ then check out my [/now](/now) page.
+I'm not a huge fan of the terms, but most of my time is split between **Front End Architecture**, **Front End Ops**, and on a good day some actual **Front End Development**. Without going into a ridiculous amount of detail, I spend my time...
 
----
+ - architecting front end build, test, and deployment processes.
+ - creating coding standards, pattern libraries, and style guides.
+ - monitoring and ensuring code quality, and best practices.
+ - writing clean JavaScript, HTML & CSS.
 
-| ❤️ Things I like |   | 🚫 Things I hate |
+| 🕰    |   | How my typical day pans out                                           |
+|-------|---|-----------------------------------------------------------------------|
+| 06:00 |   | Wake up, take medication, smoke a few cigarettes                      |
+| 06:15 |   | Jump in the shower and ponder any current issues                      |
+| 06:30 |   | Get dressed in whatever I can find - never a proper shirt             |
+| 06:45 |   | Leave for work and sit in M5 traffic, listening to BBC Radio 4        |
+| 07:30 |   | Get to the office and start work *                                    |
+| 13:00 |   | Spend my lunch break on personal projects and learning new stuff      |
+| 14:00 |   | Get back to my desk and hopefully solve whatever I was working on     |
+| 16:00 |   | Leave the office and sit in M5 traffic, listening to BBC Radio 4      |
+| 17:00 |   | Get home and hopefully get in a cheeky hour of #100DaysOfCode         |
+| 18:00 |   | The rest of the family get home and chaos ensues                      |
+| 18:30 |   | Family time, dinner, a little TV if something good is on              |
+| 22:00 |   | Sit in bed chatting to Gem about the day or reading latest book       |
+| 23:00 |   | Go to sleep                                                           |
+
+
+#### Do I do anything other than work?
+
+Surprisingly, I do actually have a few interests outside of work.
+
+| ❤️ Things I love  |   | 🚫 Things I hate |
 |-------------------|---|------------------|
-| 😂 Emojis         |   ||
-|  🎓 Learning      |   ||
-| 🌈 Open Source    |   ||
-| 🦏 JavaScript     |   ||
-| 💤 Afternoon naps |   ||
-| 💻 Work           |   ||
-| 🐂 Red Bull       |   ||
-| 💊 Valium         |   ||
-| ✍️ Tattoos       |   ||
+| 😂 Emojis         |   | 🤓 Hipsters          |
+|  🎓 Learning      |   | 😏 False modesty     |
+| 🌈 Open Source    |   | 👳 'Guru' developers |
+| 🦏 JavaScript     |   | 🙏 Religious nonsense         |
+| 💤 Afternoon naps |   | 📆 Task estimation   |
+| 💻 My job         |   | 👔 Dressing smart    |
+| 🐂 Red Bull       |   | 🐈 Cats              |
+| 💊 Valium         |   | ❄️ The cold|
+| ✍️ Tattoos        |   | 🎉 False celebrations |
 
 ---
 
@@ -42,7 +66,7 @@ If this site is still up, it means I'm alive somewhere because the domain regist
 
 ### 📚 About my book collection
 
-I get a but geeky about books. I love learning from books and have a massive library of technical and programming books.
+I get a bit geeky about books. I love learning from books and have a massive library of technical and programming books.
 
 Here's a selection of some of my favourites, most of which will have been used at some point as reference material for the posts you find here.
 
@@ -77,7 +101,7 @@ During the summer break period, I was approached by [Cruise.co.uk](http://www.cr
 
 Three years later and I'm a contractor in the industry, mostly recognised for my vanilla JavaScript (ES6+) and AngularJS development skills. Yes, most businesses still use AngularJS. Businesses want to minimise risk, and AngularJS is a safe bet.
 
-I also have experience with Node.js, Angular 4, ReactJS, and most of the other frameworks, libraries and tools in the JavaScript ecosystem.
+I also have experience with Node.js, Angular 2/4, ReactJS, and most of the other frameworks, libraries and tools in the JavaScript ecosystem.
 
 But, what I love most, is plain ol' vanilla JavaScript coding and keeping up to date with the [latest ECMAScript specs](https://www.ecma-international.org/publications/standards/Ecma-262.htm).
 

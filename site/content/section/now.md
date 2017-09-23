@@ -10,7 +10,7 @@ description = "LAST UPDATED: "
  > Date();
  ⇜ "Sat Sep 16 2017 08:14:32 GMT+0100 (BST)"
 ```
-Obviously inspired by Derek Siver's [now page](http://sivers.org/now) and the [NowNowNow Project](http://nownownow.com/about), you can find out what I'm up to **_Now_**.
+Inspired by Derek Siver's [now page](http://sivers.org/now) and the [NowNowNow Project](http://nownownow.com/about).
 
 ---
 
@@ -24,7 +24,6 @@ Obviously inspired by Derek Siver's [now page](http://sivers.org/now) and the [N
  - **Personal:** The [#100DaysOfCode](https://github.com/jacobwarduk/100-days-of-code) challenge
 
 ### 📚 Reading
- - The Pragmatic Programmer
  - Becoming a Better Programmer
  - Secrets of the JavaScript Ninja
 
