@@ -2,7 +2,7 @@
 title = "Creating a maintainable gulpfile.js"
 description = "Configuring Gulp across multiple projects can become tedious and tiresome. Fortunately, it's relatively easy to create a reusable and maintainable gulpfile.js"
 tags = []
-date = "2017-09-09T16:50:31.943Z"
+date = "2017-09-10T07:48:41.993Z"
 categories = [
     "JavaScript",
     "Development",
@@ -10,6 +10,8 @@ categories = [
     "Front End Ops"
 ]
 +++
+
+![Gulp banner](/images/gulp-banner.jpg)
 
 It may be the new kid on the block, but _why_ would you use [Webpack](https://webpack.js.org/) for literally everything? Don't get me wrong, it has its use cases where it is perfect, such as working with the latest frameworks, such as [Angular](https://angular.io/) or [React](https://facebook.github.io/react/). But for a **vanilla JavaScript project** it just seems like overkill.
 

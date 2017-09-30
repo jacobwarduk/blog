@@ -43,7 +43,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .icon-facebook-rect:before { content: '\e803'; }
 
 /* Spacing */
-.post h1, h3, h4, h5, p, .post-body ul, pre {
+.post h1, h3, h4, h5, p, .post-body ul, ol, pre {
 	margin-bottom: 20px;
 }
 
@@ -221,15 +221,15 @@ a,
 	transition: all .3s ease;
 }
 
-ul, ol 	{ margin:0; padding: 0 15px; margin-bottom: 20px; }
+ul, ol 	{ padding: 0 0 0 15px; margin-bottom: 20px; }
 ul { list-style-type:circle; }
 ol { list-style: decimal; }
 li	{  list-style-position:inside; }
 
-.post li { margin-top: 15px; }
+.post li { margin-top: 5px; }
 
 /* Line Height */
-#post-body, p { line-height:1.7; }
+#post-body, p { line-height:1.7; margin-bottom: 15px; }
 
 b, strong { font-weight: 500;
 	color: #1E2025; }
@@ -305,7 +305,7 @@ em, i { font-style: italic; }
 	margin-bottom: 5px;
 }
 
-h3, h4, h5 { color:#333; }
+h3, h4, h5 { color:#333; margin-bottom: 10px; }
 
 h3 { font-size:20px; font-weight: 300; font-family: "Helvetica Neue", Helvetica,Arial,sans-serif }
 h4 { font-size:17px; font-weight: 300; font-family: "Helvetica Neue", Helvetica,Arial,sans-serif }
@@ -362,7 +362,7 @@ pre	{
 
 table {
 	width: 100%;
-	margin: 40px 0;
+	margin: 20px 0 40px 0;
 	border-collapse: collapse;
 	font-size: 13px;
 	line-height: 1.5em;
