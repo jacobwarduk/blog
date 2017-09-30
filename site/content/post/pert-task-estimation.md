@@ -38,7 +38,7 @@ It's a pretty simple trivariate calculation that takes into account 3 figures:
 > 1. The worst possible outcome, following [Murphy's Law](https://en.wikiquote.org/wiki/Murphy%27s_law) (everything that can go wrong, will go wrong).
 
  > ```
-Te = ((best + (4 * guess) + worst) / 6
+Te = ((best + (4 * guess) + worst) / 6)
 
 SD = ((best - worst) / 6)
 ```
