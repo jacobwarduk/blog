@@ -19,6 +19,7 @@ I'm not a huge fan of the terms, but most of my time is split between **Front En
  - monitoring and ensuring code quality, and best practices.
  - writing clean JavaScript, HTML & CSS.
 
+
 | 🕰    |   | How my typical day pans out                                           |
 |-------|---|-----------------------------------------------------------------------|
 | 06:00 |   | Wake up, take medication, smoke a few cigarettes                      |
