@@ -35,9 +35,13 @@ It's a pretty simple trivariate calculation that takes into account 3 figures:
 
 > 1. The best possible outcome you can imagine, given nothing goes wrong and you're left to it.
 > 1. Your initial off-the-cuff estimate, given based on your experience, aka 'the bullshit one you would usually give'.
-> 1. The worst possible outcome, following [Moore's Law]() (everything that can go wrong, will go wrong).
+> 1. The worst possible outcome, following [Murphy's Law](https://en.wikiquote.org/wiki/Murphy%27s_law) (everything that can go wrong, will go wrong).
 
-Te =
+ > ```
+Te = ((best + (4 * guess) + worst) / 6
+
+SD = ((best - worst) / 6)
+```
 
 I've created a little npm module called [pertestimate](https://www.npmjs.com/package/pertestimate) to help with giving these estimates nice and quickly. You can [view it on Github](https://github.com/jacobwarduk/pertestimate) and contribute or leave any feedback there.
 
@@ -69,4 +73,6 @@ pertestimate(guesstimates, res => `Around ${res.estimate}, with a standard devia
 
 So now you can go tell your boss:
 
- > It _could_ take forever, but realistically it can be completed within around 8 to 14 days. Want to see a pretty picture? Here you go.
+ > It _could_ take forever, but realistically it can be completed within around 8 to 14 days.
+
+
