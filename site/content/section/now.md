@@ -1,16 +1,15 @@
 +++
-date = "2017-09-16T09:42:15.447Z"
 title = "Now"
 hidden = true
 menu = "main"
-description = "LAST UPDATED: "
+description = "Find out what I'm doing right now! Inspired by Derek Siver's [now page](http://sivers.org/now) and the [NowNowNow Project](http://nownownow.com/about)."
 +++
 
 ```javascript
+ // Last updated:
  > Date();
- ⇜ "Sat Sep 16 2017 08:14:32 GMT+0100 (BST)"
+ ⇜ "Sat Oct 14 2017 08:29:08 GMT+0100 (BST)"
 ```
-Inspired by Derek Siver's [now page](http://sivers.org/now) and the [NowNowNow Project](http://nownownow.com/about).
 
 ---
 
@@ -19,7 +18,7 @@ Inspired by Derek Siver's [now page](http://sivers.org/now) and the [NowNowNow P
  - Yatton, Bristol, UK.
 
 ### 🚗 Driving
-Considering the amount of driving I do, I thought it was about time to upgrade my ride.
+Considering the amount of driving I do, I thought it was about time to upgrade my ride last week.
 
  - Mercedes-Benz A220 CDI AMG Sport
 
