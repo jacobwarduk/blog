@@ -92,14 +92,14 @@ Here's a selection of some of my favourites, most of which will have been used a
 #### Intermediate
 
  - JavaScript Application Design
+ - Front End Architecture for Design Systems [[Free trial](http://shop.oreilly.com/product/0636920040156.do) | [Paperback](http://amzn.to/2wUo9x4)]
  - Reliable JavaScript
- - Front End Architecture for Design Systems
- - Learning JavaScript Design Patterns
+ - Learning JavaScript Design Patterns [[Free online](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) | [Paperback](http://amzn.to/2wVmDLc)]
  - JavaScript Patterns
 
 #### Advanced
 
- - Secrets of the JavaScript Ninja (2nd edition!)
+ - Secrets of the JavaScript Ninja (2nd Edition)
  - Functional JavaScript
  - Data Structures & Algorithms in JS
  - You Don't Know JS Collection
