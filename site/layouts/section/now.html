@@ -5,8 +5,8 @@
         <h2 class="headline">
             {{ .Description }}
         </h2>
-        <aside class="date">
-            {{ .Date.Format "January 2, 2006" }}
+        <aside>
+            Created on: {{ .Date.Format "January 2, 2006" }}
         </aside>
 
         {{ with .Params.tags }}
