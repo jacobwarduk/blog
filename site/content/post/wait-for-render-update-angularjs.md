@@ -2,7 +2,7 @@
 title = "Wait for content to be updated and rendered in AngularJS 1.x"
 description = "Listening for the $viewContentLoaded or $onChanges events don't actually solve the problem. So here's a solution that does using our own custom directive."
 tags = []
-date = "2017-10-21T06:57:32.286Z"
+date = "2017-10-21T12:15:14.178Z"
 categories = [
     "JavaScript",
     "Development",
