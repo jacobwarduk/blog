@@ -14,12 +14,14 @@ description = "Find out what I'm doing right now! Inspired by Derek Siver's [now
 ---
 
 ### 🏡 Living
- - During the week, I live alone, in Finsbury Park, London.
- - At the weekend, I live with my partner, two boys, and a cat that I fucking hate, in Yatton, Bristol.
+ - Weekdays: Finsbury Park, London.
+ - Weekends: Yatton, Bristol.
+
+### 👨‍👩‍👦‍👦 Family
+ - My partner, Gem.
+ - Two lovely boys (9 & 11 years old)
 
 ### 🚗 Driving
-Considering the amount of driving I do, I recently thouught it was about time to upgrade my ride.
-
  - Mercedes-Benz A220 CDI AMG Sport
 
 ### 👨‍💻 Working
@@ -34,4 +36,4 @@ Considering the amount of driving I do, I recently thouught it was about time to
 ### 👨‍🎓 Focusing
  - Improving JavaScript (ES8+) skills
  - Improving Angular 5 skills
- - Getting into open source contributing
+ - Contributing more to open source
