@@ -8,22 +8,22 @@ description = "Find out what I'm doing right now! Inspired by Derek Siver's [now
 ```javascript
  // Last updated:
  > Date();
- ⇜ "Sat Oct 14 2017 08:29:08 GMT+0100 (BST)"
+ ⇜ "Sun Nov 12 2017 07:39:37 GMT+0000 (GMT)"
 ```
 
 ---
 
 ### 🏡 Living
- - With my partner, two boys, and a cat that I fucking hate.
- - Yatton, Bristol, UK.
+ - During the week, I live alone, in Finsbury Park, London.
+ - At the weekend, I live with my partner, two boys, and a cat that I fucking hate, in Yatton, Bristol.
 
 ### 🚗 Driving
-Considering the amount of driving I do, I thought it was about time to upgrade my ride last week.
+Considering the amount of driving I do, I recently thouught it was about time to upgrade my ride.
 
  - Mercedes-Benz A220 CDI AMG Sport
 
 ### 👨‍💻 Working
- - **9 to 5:** Contract JavaScript Developer at [NGA HR](https://en.wikipedia.org/wiki/Northgate_Information_Solutions)
+ - **9 to 5:** Contract Front End JavaScript Developer at [Wowcher](https://www.wowcher.co.uk)
  - **Personal:**  [Cactus Theme for Hugo 2017](https://github.com/jacobwarduk/hugo-cactus-theme-2017)
  - **Personal:** The [#100DaysOfCode](https://github.com/jacobwarduk/100-days-of-code) challenge
 
@@ -33,4 +33,5 @@ Considering the amount of driving I do, I thought it was about time to upgrade m
 
 ### 👨‍🎓 Focusing
  - Improving JavaScript (ES8+) skills
+ - Improving Angular 5 skills
  - Getting into open source contributing
