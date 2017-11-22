@@ -8,18 +8,14 @@ description = "Find out what I'm doing right now! Inspired by Derek Siver's [now
 ```javascript
  // Last updated:
  > Date();
- ⇜ "Sun Nov 12 2017 07:39:37 GMT+0000 (GMT)"
+ ⇜ "Wed Nov 22 2017 15:40:11 GMT+0000 (GMT)"
 ```
 
 ---
 
 ### 🏡 Living
  - **Weekdays:** Finsbury Park, London.
- - **Weekends:** Yatton, Bristol.
-
-### 👨‍👩‍👦‍👦 Family
- - My partner, Gem 💎
- - Two lovely boys (9 & 11 years old).
+ - **Weekends:** Floating around the Bristol area.
 
 ### 🚗 Driving
  - Mercedes-Benz A220 CDI AMG Sport.
