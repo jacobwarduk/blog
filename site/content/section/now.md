@@ -8,20 +8,19 @@ description = "Find out what I'm doing right now! Inspired by Derek Siver's [now
 ```javascript
  // Last updated:
  > Date();
- ⇜ "Wed Nov 22 2017 15:40:11 GMT+0000 (GMT)"
+ ⇜ "Fri Dec 08 2017 21:39:12 GMT+0000 (GMT)"
 ```
 
 ---
 
 ### 🏡 Living
- - **Weekdays:** Finsbury Park, London.
- - **Weekends:** Floating around the Bristol area.
+ - Floating around various hotels and spas up and down the country while I'm between contracts.
 
 ### 🚗 Driving
  - Mercedes-Benz A220 CDI AMG Sport.
 
 ### 👨‍💻 Working
- - **9 to 5:** Contract Front End JavaScript Developer at [Wowcher](https://www.wowcher.co.uk).
+ - **9 to 5:** Currently between contracts until the right one comes along.
  - **Personal:**  [Cactus Theme for Hugo 2017](https://github.com/jacobwarduk/hugo-cactus-theme-2017).
  - **Personal:** The [#100DaysOfCode](https://github.com/jacobwarduk/100-days-of-code) challenge.
 
