@@ -25,15 +25,15 @@ I'm not a huge fan of the terms, but most of my time is split between **Front En
 | 06:00 |   | Wake up, take medication, smoke a few cigarettes                      |
 | 06:15 |   | Jump in the shower and ponder any current issues                      |
 | 06:30 |   | Get dressed in whatever I can find - never a proper shirt             |
-| 06:45 |   | Leave for work and sit in M5 traffic, listening to BBC Radio 4        |
+| 06:45 |   | Leave for work and sit in traffic, listening to BBC Radio 4           |
 | 07:30 |   | Get to the office and start work *                                    |
 | 13:00 |   | Spend my lunch break on personal projects and learning new stuff      |
 | 14:00 |   | Get back to my desk and hopefully solve whatever I was working on     |
-| 16:00 |   | Leave the office and sit in M5 traffic, listening to BBC Radio 4      |
+| 16:00 |   | Leave the office and sit in traffic, listening to BBC Radio 4         |
 | 17:00 |   | Get home and hopefully get in a cheeky hour of #100DaysOfCode         |
-| 18:00 |   | The rest of the family get home and chaos ensues                      |
-| 18:30 |   | Family time, dinner, a little TV if something good is on              |
-| 22:00 |   | Sit in bed chatting to Gem about the day or reading latest book       |
+| 18:00 |   | Dinner time!                                                          |
+| 18:30 |   | A little TV if something good is on                                   |
+| 22:00 |   | Read a chapter of whatever book I'm currently reading                 |
 | 23:00 |   | Go to sleep                                                           |
 
 
@@ -41,7 +41,7 @@ I'm not a huge fan of the terms, but most of my time is split between **Front En
 
 Surprisingly, I do actually have a few interests outside of work.
 
-| ❤️ Things I love  |   | 🚫 Things I hate               |
+| ❤️ Things I love  |   | 🚫 Things I hate              |
 |-------------------|---|-------------------------------|
 | 😂 Emojis         |   | 🤓 Hipsters                   |
 |  🎓 Learning      |   | 😏 False modesty              |
@@ -50,8 +50,8 @@ Surprisingly, I do actually have a few interests outside of work.
 | 💤 Afternoon naps |   | 📆 Task estimation            |
 | 💻 My job         |   | 👔 Dressing smart             |
 | 🐂 Red Bull       |   | 🐈 Cats                       |
-| 💊 Valium         |   | ❄️ The cold                    |
-| ✍️ Tattoos        |   | 🎉 False celebrations          |
+| 💊 Valium         |   | ❄️ The cold                   |
+| ✍️ Tattoos        |   | 🎉 False celebrations         |
 
 ---
 
