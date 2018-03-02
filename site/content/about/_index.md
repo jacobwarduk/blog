@@ -8,7 +8,7 @@ description = "All about me - my work, my personal life, and all the gory detail
 
 ### 👨‍💻 About me
 
-The astute reader will have noticed that I am a **Contract Front End & JavaScript Developer**. However, I suppose there is more to me than a job title, especially one which doesn't really describe what I _actually_ do.
+The astute reader will have noticed that I am a **Lead Front End & JavaScript Developer**. However, I suppose there is more to me than a job title, especially one which doesn't really describe what I _actually_ do.
 
 #### So WTF do I _actually_ do?
 

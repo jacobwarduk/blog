@@ -15,8 +15,8 @@ disqusShortname = "jacobwarduk"
 
 [params]
 	name = "Jacob Ward"
-	description = "Jacob is a Contract Front End & JavaScript developer. This is his little place on the web to play around and occasionally write stuff about what he does."
-	bio = "Contract Front End & JavaScript Developer"
+	description = "Jacob is a Lead Front End & JavaScript developer. This is his little place on the web to play around and occasionally write stuff about what he does."
+	bio = "Lead Front End & JavaScript Developer"
 	# Enter optionally your twitter account
 	twitter = "jacobwarduk"
 	enableRSS = true
@@ -38,7 +38,7 @@ disqusShortname = "jacobwarduk"
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "Contract Front End & JavaScript Programmer"
+	aboutAuthor = "Lead Front End & JavaScript Programmer"
 	tweet = ""
 	facebook = ""
 	share = ""
