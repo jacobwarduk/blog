@@ -185,9 +185,7 @@ Now our current execution context has exited and been _popped_ off the call stac
 
 It invokes each one in turn, creating a new execution context for each, pushing and popping it, on to and off of the call stack.
 
-At this point in time, `i` now points to the value `3`, as the for loop has executed three times pre-incrementing `i` each time.
-
-Since there isn't an array index of `3` in the `numbers` array, `numbers[i]` returns `undefined`.
+Since we no longer have access to the `numbers` array, because it was inside the IIFE whose execution context no longer exists, `numbers[i]` returns `undefined`.
 
 The first callback function received from the message queue tries to add `0` to `undefined`, which results in `NaN`. The next two functions received from the message queue try to add `undefined` to `NaN`, which again results in `NaN`.
 
@@ -197,7 +195,7 @@ Ultimately leaving `sum` assigned a value of `NaN`.
 
 ## Identifying and solving the problems
 
-This will be covered in my next post [Solving the essential JavaScript interview question](#), coming next... 🙂
+This will be covered in my next post [Solving the essential JavaScript interview question](http://jacobward.io/post/solving-javascript-interview-question/), coming next... 🙂
 
 There are a numerous ways to solve this problem. If you've already done it,  [I'd love to hear about it](https://github.com/jacobwarduk/jacobward.io/issues/new).
 
