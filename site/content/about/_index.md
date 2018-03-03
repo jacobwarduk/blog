@@ -14,23 +14,24 @@ The astute reader will have noticed that I am a **Lead Front End & JavaScript De
 
 I'm not a huge fan of the terms, but most of my time is split between **Front End Architecture**, **Front End Ops**, and on a good day some actual **Front End Development**. Without going into a ridiculous amount of detail, I spend my time...
 
- - architecting front end build, test, and deployment processes.
- - creating coding standards, pattern libraries, and style guides.
- - monitoring and ensuring code quality, and best practices.
- - writing clean JavaScript, HTML & CSS.
+ - Architecting front end build, test, and deployment processes.
+ - Creating coding standards, pattern libraries, and style guides.
+ - Monitoring and ensuring code quality, and best practices.
+ - Writing clean JavaScript, HTML & CSS.
 
 
 | 🕰    |   | How my typical day pans out                                           |
 |-------|---|-----------------------------------------------------------------------|
 | 06:00 |   | Wake up, take medication, smoke a few cigarettes                      |
-| 06:15 |   | Jump in the shower and ponder any current issues                      |
-| 06:30 |   | Get dressed in whatever I can find - never a proper shirt             |
-| 06:45 |   | Leave for work and sit in traffic, listening to BBC Radio 4           |
-| 07:30 |   | Get to the office and start work *                                    |
+| 06:15 |   | Try to workout in a vain attempt at being getting healthy             |
+| 06:45 |   | Jump in the shower and ponder any current issues                      |
+| 07:00 |   | Get dressed in whatever I can find - never a proper shirt             |
+| 07:30 |   | Leave for work and sit in traffic, listening to BBC Radio 4           |
+| 08:00 |   | Get to the office and start work *                                    |
 | 13:00 |   | Spend my lunch break on personal projects and learning new stuff      |
 | 14:00 |   | Get back to my desk and hopefully solve whatever I was working on     |
-| 16:00 |   | Leave the office and sit in traffic, listening to BBC Radio 4         |
-| 17:00 |   | Get home and hopefully get in a cheeky hour of #100DaysOfCode         |
+| 16:30 |   | Leave the office and sit in traffic, listening to BBC Radio 4         |
+| 17:00 |   | Get home and hopefully get in an hour of coding on personal projects  |
 | 18:00 |   | Dinner time!                                                          |
 | 18:30 |   | A little TV if something good is on                                   |
 | 22:00 |   | Read a chapter of whatever book I'm currently reading                 |
@@ -44,7 +45,7 @@ Surprisingly, I do actually have a few interests outside of work.
 | ❤️ Things I love  |   | 🚫 Things I hate              |
 |-------------------|---|-------------------------------|
 | 😂 Emojis         |   | 🤓 Hipsters                   |
-|  🎓 Learning      |   | 😏 False modesty              |
+| 🎓 Learning       |   | 😏 False modesty              |
 | 🌈 Open Source    |   | 👳 'Guru' developers          |
 | 🦏 JavaScript     |   | 🙏 Religious nonsense         |
 | 💤 Afternoon naps |   | 📆 Task estimation            |
@@ -118,26 +119,3 @@ Here's a selection of some of my favourites, most of which will have been used a
 
 
 ---
-
-### 💻 About getting into web development
-
-I got into web development whilst working as an SEO in the adult industry.
-
-As I became more technically aware of SEO and how it's not just about having the right `h1`s and `meta` tags, I became more technically involved in the development of websites.
-
-Around that time I decided to go back into education as an adult learner in my mid-twenties. Still doing a little bit of freelance work on the side to pay the bills.
-
-I studied **Access to HE IT Software Development** at [Birmingham Metropolitan College](https://www.bmet.ac.uk/course/information-technology-access-to-higher-education/) and achieved distinctions in all six fields.
-
-With the [University of Southampton](https://www.southampton.ac.uk/engineering/index.page) consistently being #1 in pretty much all guides, I then went on to study **General Engineering** there. After 2 years in Southampton, I decided to move back to Birmingham to finish off my studies.
-
-During the summer break period, I was approached by [Cruise.co.uk](http://www.cruise.co.uk) to work as a Front End Developer for them. I hastily accepted the offer and never looked back.
-
-Three years later and I'm a contractor in the industry, mostly recognised for my vanilla JavaScript (ES6+) and AngularJS development skills. Yes, most businesses still use AngularJS. Businesses want to minimise risk, and AngularJS is a safe bet.
-
-I also have experience with Node.js, Angular 2/4, ReactJS, and most of the other frameworks, libraries and tools in the JavaScript ecosystem.
-
-But, what I love most, is plain ol' vanilla JavaScript coding and keeping up to date with the [latest ECMAScript specs](https://www.ecma-international.org/publications/standards/Ecma-262.htm).
-
----
-
