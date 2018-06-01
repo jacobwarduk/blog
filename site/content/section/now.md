@@ -8,28 +8,27 @@ description = "Find out what I'm doing right now!"
 ```javascript
  // Last updated:
  > Date();
- ⇜ "Thu Mar 01 2018 11:19:50 GMT+0000 (GMT)"
+ ⇜ "Fri Jun 01 2018 18:49:31 GMT+0100 (BST)"
 ```
 
 ---
 
 ### 🏡 Living
- - Floating around various hotels in the Gloucester area and my Girlfriend's in South Wales.
+ - Floating around various hotels in the Gloucester area
 
 ### 🚗 Driving
- - Mercedes-Benz A220 CDI AMG Sport.
+ - Mercedes-Benz A220 CDI AMG Sport
 
 ### 👨‍💻 Working
- - **9 to 5:** Front End Lead at [All Fleet Online](https://www.allfleetonline.com).
- - **Personal:**  [Various open source projects](https://github.com/jacobwarduk).
+ - Front End Lead at [All Fleet Online](https://www.allfleetonline.com)
 
 ### 📚 Reading
  - [Becoming a Better Programmer](http://amzn.to/2htrlgX), Pete Goodliffe.
  - [Secrets of the JavaScript Ninja (2nd Edition)](http://amzn.to/2huIV42), John Resig.
 
 ### 👨‍🎓 Professional Development
- - Improving JavaScript (ES8+) skills.
- - Contributing more to open source.
+ - Learning functional proframming
+ - Learning data structures and algorithms
 
 ### 📈 Personal Development
  - Getting healthier

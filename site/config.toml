@@ -53,7 +53,8 @@ disqusShortname = "jacobwarduk"
 
 # Add additional social link entries underneath
 [social]
-    twitter-square      = "https://www.twitter.com/jacobwarduk"
-    linkedin-square     = "https://www.linkedin.com/in/jacobwarduk/"
-    github-square       = "https://github.com/jacobwarduk"
-    rss-square          = "http://jacobward.io/index.xml"
+	instagram			= "https://instagram.com/jacobward.io"
+    twitter      		= "https://www.twitter.com/jacobwarduk"
+    linkedin     		= "https://www.linkedin.com/in/jacobwarduk/"
+    github       		= "https://github.com/jacobwarduk"
+    rss          		= "http://jacobward.io/index.xml"

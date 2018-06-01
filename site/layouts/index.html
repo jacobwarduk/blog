@@ -1,5 +1,9 @@
 {{ define "profile" }}
 	{{ partial "profile.html" . }}
+
+	{{ if .Site.Social }}
+		{{ partial "social.html" . }}
+	{{ end }}
 {{ end }}
 
 {{ define "main" }}
